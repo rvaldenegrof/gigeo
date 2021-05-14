@@ -7,6 +7,7 @@
     background-color: #94dce4;
     border: 1px solid #94dce4;
     justify-content: right;
+    margin-right: 1em;
 }
 
 .mensaje {
@@ -14,19 +15,9 @@
     border: 1px solid #ec6464;
 }
 
-@include small-device {
-
-}
-
-@include medium-device {
-
-}
-
 @media (max-width: $min-md) {
 
     .botones {
-  
       display: none;
-  
     }
 }

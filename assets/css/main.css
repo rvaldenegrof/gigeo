@@ -10099,6 +10099,7 @@ img {
   background-color: #94dce4;
   border: 1px solid #94dce4;
   justify-content: right;
+  margin-right: 1em;
 }
 
 .mensaje {
@@ -10160,7 +10161,6 @@ img {
     -ms-flex-align: center;
     align-items: center;
     justify-content: left;
-    padding-left: 2em;
   }
 }
 /* .columnas {
