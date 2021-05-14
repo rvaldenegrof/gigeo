@@ -1,11 +1,19 @@
-.videos {
+.video {
     display: flex;
     width: 100%;
     justify-content: center;
     padding-top: 1em;
+    margin-left: 1em;
 }
 
+.video_img {
+    width: 100%;
+}
+
+
 @include medium-device {
+
+
     .videos {
         width: 100%;
         display: -webkit-box;
@@ -17,4 +25,11 @@
         justify-content: left;
         padding-left: 2em;
     }
+
+    .video__horizontal{
+        width: 100%;    
+    }
+
+
+
 }

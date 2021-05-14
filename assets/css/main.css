@@ -10053,11 +10053,16 @@ img {
         border: 1px solid green;
     }
 } */
-.videos {
+.video {
   display: flex;
   width: 100%;
   justify-content: center;
   padding-top: 1em;
+  margin-left: 1em;
+}
+
+.video_img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -10071,6 +10076,10 @@ img {
     align-items: center;
     justify-content: left;
     padding-left: 2em;
+  }
+
+  .video__horizontal {
+    width: 100%;
   }
 }
 /* @import 'layout/forms'; */
