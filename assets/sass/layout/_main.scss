@@ -6,13 +6,18 @@
     margin-left: 1em;
 }
 
+.hero__video-list {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
 .video_img {
     width: 100%;
 }
 
 
 @include medium-device {
-
 
     .videos {
         width: 100%;
@@ -24,12 +29,10 @@
         align-items: center;
         justify-content: left;
         padding-left: 2em;
+        padding-right: 2em;
     }
 
     .video__horizontal{
         width: 100%;    
     }
-
-
-
 }
