@@ -3,7 +3,7 @@
 /* Base */
 .thumbnail {
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .thumbnail_tiny {
@@ -36,7 +36,7 @@ padding-left: .8em;
     -ms-flex-align: center;
     align-items: center;
     justify-content: center;
-    padding-left: 1em;
+    padding-left: 3em;
 }
 
 @include medium-device {
