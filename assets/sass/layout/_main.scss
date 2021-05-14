@@ -16,11 +16,26 @@
     width: 100%;
 }
 
+.video__title {
+   h3 {
+       font-size: $medium;
+       margin-bottom: 0;
+       padding-top: .5em;
+   }
+}
+
+.video__body {
+    p {
+        font-size: $small;
+        color: $gray;
+    }
+}
+
 
 @include medium-device {
 
     .videos {
-        width: 100%;
+        width: 50%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -33,6 +48,7 @@
     }
 
     .video__horizontal{
-        width: 100%;    
+        width: 100%;  
+        margin-top: 0;  
     }
 }
