@@ -10095,6 +10095,17 @@ img {
   flex-direction: row-reverse;
 }
 
+.mensaje {
+  background-color: #94dce4;
+  border: 1px solid #94dce4;
+  justify-content: right;
+}
+
+.seguir {
+  background-color: #ec6464;
+  border: 1px solid #ec6464;
+}
+
 @media (min-width: 768px) {
   .botones {
     display: none;
