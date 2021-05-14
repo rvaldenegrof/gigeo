@@ -7,9 +7,14 @@
 }
 
 .hero__video-list {
-    width: 100%;
+    width: 80%;
     float: left;
     margin: 0 auto;
+}
+
+.hero_video {
+    display: flex;
+    justify-content: center;
 }
 
 .video_img {
