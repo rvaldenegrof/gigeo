@@ -1,0 +1,11 @@
+.botones {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@include medium-device {
+    .botones {
+        display: none;
+        flex-direction: row-reverse;
+    }
+}

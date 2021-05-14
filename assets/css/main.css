@@ -10090,6 +10090,17 @@ img {
   }
 }
 /* @import 'layout/forms'; */
+.botones {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (min-width: 768px) {
+  .botones {
+    display: none;
+    flex-direction: row-reverse;
+  }
+}
 /* COMPONENTS: THUMBNAILS
    ========================================================================== */
 /* Base */
