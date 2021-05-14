@@ -1,0 +1,54 @@
+/* COMPONENTS: THUMBNAILS
+   ========================================================================== */
+/* Base */
+.thumbnail {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.thumbnail_tiny {
+    margin: 1em;
+    max-width: 100px;
+}
+
+.user-info__summary {
+padding-left: .8em;
+
+    h2 {
+        margin: 0;
+        font-size: $medium;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 0;
+        font-size: $x-small;
+        color: $gray;
+    }
+}
+
+.user-info {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+}
+
+@include medium-device {
+    .user-info {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: left;
+        padding-left: 2em;
+    }
+}
