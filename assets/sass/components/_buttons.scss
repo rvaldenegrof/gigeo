@@ -1,11 +1,13 @@
 .botones {
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 0;
 }
 
 .seguir {
     background-color: #94dce4;
     border: 1px solid #94dce4;
+    border-radius: 0;
     justify-content: right;
     margin-right: 1em;
 }
@@ -13,6 +15,8 @@
 .mensaje {
     background-color: #ec6464;
     border: 1px solid #ec6464;
+    border-radius: 0;
+    margin-right: 0;
 }
 
 @media (max-width: $min-md) {

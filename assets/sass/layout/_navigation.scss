@@ -1,5 +1,7 @@
 .navbar {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .collapse {
@@ -11,6 +13,15 @@
 
     font-size: 3rem;
     font-weight: bold;
+}
+
+.navbar-toggler {
+    border:transparent;
+    color: black
+}
+
+.navbar-toggler-icon {
+    color: black
 }
 
 
